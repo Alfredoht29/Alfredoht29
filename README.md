@@ -1,7 +1,6 @@
 # Hi/Hola
-Soy Emilio y soy un estudiante de ingenieria en sistemas/computer science 
-
-**Prueba tarea**
+Soy Emilio y soy un estudiante de ingenieria en sistemas/computer science <br>
+recientemente he estudiado y estoy trabajando en ***angular 14***
 
 Me gustan los lenguajes Java,Python,Php :alien:
  
