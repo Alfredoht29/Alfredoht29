@@ -11,48 +11,20 @@ I'm Emilio, and I'm a **Computer Science** graduate. <br>
 ### Code Samples - Java, Python, PHP, and TypeScript
 
 ```java
-import java.util.Arrays;
-
-public class QuickSortExample {
-    public static void quickSort(int[] array, int low, int high) {
-        if (low < high) {
-            int pi = partition(array, low, high);
-
-            quickSort(array, low, pi - 1);
-            quickSort(array, pi + 1, high);
-        }
-    }
-
-    private static int partition(int[] array, int low, int high) {
-        int pivot = array[high];
-        int i = (low - 1);
-        for (int j = low; j < high; j++) {
-            if (array[j] < pivot) {
-                i++;
-
-                // swap array[i] and array[j]
-                int temp = array[i];
-                array[i] = array[j];
-                array[j] = temp;
-            }
-        }
-
-        // swap array[i+1] and array[high] (pivot)
-        int temp = array[i + 1];
-        array[i + 1] = array[high];
-        array[high] = temp;
-
-        return i + 1;
-    }
-
-    public static void main(String[] args) {
-        int[] data = { 8, 7, 2, 1, 0, 9, 6 };
-        System.out.println("Unsorted array: " + Arrays.toString(data));
-
-        quickSort(data, 0, data.length - 1);
-
-        System.out.println("Sorted array: " + Arrays.toString(data));
-    }
+public class Employee{
+int id;
+String name;
+String phoneNumber;
+int age;
+int valoration;
+}
+public Employee(){}
+public Employee(int id,String name,String phoneNumber,int age,int valoration){
+this.id=id;
+this.name=name;
+this.phoneNumber;
+this.age=age;
+this.valoration=valoration
 }
 ```
 
