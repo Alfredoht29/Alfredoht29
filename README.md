@@ -21,19 +21,19 @@ Connect with me to collaborate on exciting projects! 👾👽
 
 ```java
 public class Employee{
-int id;
-String name;
-String phoneNumber;
-int age;
-int valoration;
-public Employee(){}
-public Employee(int id,String name,String phoneNumber,int age,int valoration){
-this.id=id;
-this.name=name;
-this.phoneNumber;
-this.age=age;
-this.valoration=valoration
-}
+private int id;
+private String name;
+private String phoneNumber;
+private int age;
+private int valoration;
+    public Employee(){}
+    public Employee(int id,String name,String phoneNumber,int age,int valoration){
+    this.id=id;
+    this.name=name;
+    this.phoneNumber;
+    this.age=age;
+t    his.valoration=valoration
+    }
 }
 ```
 
