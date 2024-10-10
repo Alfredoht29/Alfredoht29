@@ -32,7 +32,7 @@ private int valoration;
     this.name=name;
     this.phoneNumber;
     this.age=age;
-t    his.valoration=valoration
+    this.valoration=valoration
     }
 }
 ```
